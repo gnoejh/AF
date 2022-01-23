@@ -8,3 +8,9 @@ dependencyResolutionManagement {
 }
 rootProject.name = "My Application"
 include ':app'
+include ':Exercise1.03'
+include ':Exercise1.01'
+include ':Exercise1.02'
+include ':Exercise1.04'
+include ':Exercise1.05'
+include ':Activity1.01'
