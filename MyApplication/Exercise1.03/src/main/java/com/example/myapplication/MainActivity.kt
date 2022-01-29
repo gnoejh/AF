@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //TODO 1
+        //TODO 1 insert correct code here
         val webView = WebView(this)
         webView.settings.javaScriptEnabled = true
         setContentView(webView)
