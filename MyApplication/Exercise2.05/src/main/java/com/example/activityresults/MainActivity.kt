@@ -10,12 +10,13 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 
-
+//TODO
 const val PICK_RAINBOW_COLOR_INTENT = 1  // The request code
 const val RAINBOW_COLOR_NAME = "RAINBOW_COLOR_NAME" // Key to return rainbow color name in intent
 const val RAINBOW_COLOR = "RAINBOW_COLOR" // Key to return rainbow color in intent
 const val DEFAULT_COLOR = "#FFFFFF" // White
 
+//TODO Retrieving a result from an activity
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
