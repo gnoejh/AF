@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         if (requestCode == PICK_RAINBOW_COLOR_INTENT && resultCode == Activity.RESULT_OK) {
 
             val backgroundColor = data?.getIntExtra(RAINBOW_COLOR, Color.parseColor(DEFAULT_COLOR)) ?: Color.parseColor(DEFAULT_COLOR)
-            val colorName = data?.getStringExtra(RAINBOW_COLOR_NAME) ?: ""
+            val colorName = data?.getStringExtra(RAINBOW_COLOR_NAME) ?: "" //Elvis operator
             val colorMessage = getString(R.string.color_chosen_message, colorName)
 
             val rainbowColor = findViewById<TextView>(R.id.rainbow_color)

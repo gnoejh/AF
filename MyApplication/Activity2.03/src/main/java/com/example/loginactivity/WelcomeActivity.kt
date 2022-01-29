@@ -5,8 +5,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
 //This is done as an example for simplicity and user/pwd credentials should never be stored in an app
-const val USER_NAME_CORRECT_VALUE = "someusername"
-const val PASSWORD_CORRECT_VALUE = "somepassword"
+const val USER_NAME_CORRECT_VALUE = "Hong"
+const val PASSWORD_CORRECT_VALUE = "12345"
 const val LOGIN_REQUEST_CODE = 1
 
 class WelcomeActivity : AppCompatActivity() {

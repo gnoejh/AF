@@ -7,6 +7,9 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
+//TODO Intents, Tasks, and Launch Modes
+//android:launchMode="standard/singleTop/singleTask/singleInstance"
+//https://medium.com/@ankit.sinhal/understand-activity-launch-mode-with-examples-721e85b6421e
 class MainActivity : AppCompatActivity() {
 
     private val TAG = "MainActivity"

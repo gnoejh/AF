@@ -16,9 +16,10 @@ const val PASSWORD_KEY = "PASSWORD_KEY"
 const val IS_LOGGED_IN = "IS_LOGGED_IN"
 const val LOGGED_IN_USERNAME = "LOGGED_IN_USERNAME"
 
+//TODO startActivity for Intent
 //This is done as an example for simplicity and user/pwd credentials should never be stored in an app
-const val USER_NAME_CORRECT_VALUE = "someusername"
-const val PASSWORD_CORRECT_VALUE = "somepassword"
+const val USER_NAME_CORRECT_VALUE = "Hong"
+const val PASSWORD_CORRECT_VALUE = "12345"
 
 class MainActivity : AppCompatActivity() {
 

@@ -13,6 +13,7 @@
         <entry key="..\:/AF/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3958333333333333" />
         <entry key="..\:/AF/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3958333333333333" />
         <entry key="..\:/SOC4030/2022/AF/MyApplication/Activity1.01/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Activity2.01/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
         <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise1.05/src/main/res/layout/activity_main.xml" value="0.2140625" />
         <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.02/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
         <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.03/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
@@ -20,6 +21,14 @@
         <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.04/src/main/res/layout/activity_welcome.xml" value="0.16666666666666666" />
         <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.05/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.05/src/main/res/layout/activity_rainbow_color_picker.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.06/src/main/res/layout/activity_a.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.06/src/main/res/layout/activity_b.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.06/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.06/src/main/res/layout/activity_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.06/src/main/res/layout/activity_three.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.06/src/main/res/layout/activity_two.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.06/src/main/res/layout/letters.xml" value="0.16666666666666666" />
+        <entry key="..\:/SOC4030/2022/AF/MyApplication/Exercise2.06/src/main/res/layout/numbers.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>

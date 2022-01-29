@@ -26,6 +26,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/letters_layout"/>
 
+    <!-- TODO layout hierarchy -->
     <include layout="@layout/letters"
         android:id="@+id/letters_layout"
         android:layout_width="wrap_content"

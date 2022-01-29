@@ -19,6 +19,7 @@ const val PASSWORD_KEY = "PASSWORD_KEY"
 const val IS_LOGGED_IN = "IS_LOGGED_IN"
 const val LOGGED_IN_USERNAME = "LOGGED_IN_USERNAME"
 
+//TODO startActivityForResult for Intent
 class MainActivity : AppCompatActivity() {
 
     private var isLoggedIn = false
