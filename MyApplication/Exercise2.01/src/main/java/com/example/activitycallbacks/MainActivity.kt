@@ -5,9 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
+//TODO Logging the activity callbacks
 class MainActivity : AppCompatActivity() {
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -25,10 +24,10 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onStart")
     }
 
-    //Uncomment callback to see this callback on rotation
-//    override fun onConfigurationChanged(newConfig: Configuration) {
-//        super.onConfigurationChanged(newConfig)
-//        Log.d(TAG, "onConfigurationChanged")
+    //TODO Uncomment callback to see this callback on rotation
+//    override fun onconfigurationchanged(newconfig: configuration) {
+//        super.onconfigurationchanged(newconfig)
+//        log.d(tag, "onconfigurationchanged")
 //    }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
