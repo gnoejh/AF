@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.example.intentsintroduction"
-        minSdkVersion 16
+        minSdk 29
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"

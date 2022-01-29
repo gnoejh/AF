@@ -7,8 +7,10 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
+//TODO
 const val FULL_NAME_KEY = "FULL_NAME_KEY"
 
+//TODO Introduction to Intent
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,10 +23,10 @@ class MainActivity : AppCompatActivity() {
 
             if (fullName.isNotEmpty()) {
 
-                //Set the name of the Activity to launch
+                //TODO Set the name of the Activity to launch
                 Intent(this, WelcomeActivity::class.java)
                     .also { welcomeIntent ->
-                        //Add the data
+                        //Add the data, lambda expression, welcomeIntent instead of default it
                         welcomeIntent.putExtra(FULL_NAME_KEY, fullName)
                         //Launch
                         startActivity(welcomeIntent)
