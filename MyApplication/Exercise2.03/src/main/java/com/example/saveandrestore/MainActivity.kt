@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-
+    //TODO val and customaccessor
     private val discountButton: Button
         get() = findViewById(R.id.discount_button)
 
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d(TAG, "onCreate")
 
-        // here we handle the Button onClick event
+        //TODO here we handle the Button onClick event
         discountButton.setOnClickListener {
 
             val firstName = firstName.text.toString().trim()
@@ -51,15 +51,17 @@ class MainActivity : AppCompatActivity() {
 
                 discountCodeConfirmation.text =
                     getString(R.string.discount_code_confirmation, fullName)
-                // Generates discount code
+                //TODO  Generates discount code using java.util.UUID
                 discountCode.text = UUID.randomUUID().toString().take(8).toUpperCase()
 
+                //TODO utility fun
                 hideKeyboard()
                 clearInputFields()
             }
         }
     }
 
+    //TODO restore state
     override fun onRestoreInstanceState(
         savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)
@@ -74,6 +76,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    //TODO store state
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         Log.d(TAG, "onSaveInstanceState")
@@ -83,8 +86,6 @@ class MainActivity : AppCompatActivity() {
         outState.putString(DISCOUNT_CONFIRMATION_MESSAGE,
             discountCodeConfirmation.text.toString())
     }
-
-
 
     private fun clearInputFields() {
         firstName.text.clear()
@@ -99,6 +100,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //TODO static variables/constants
     companion object {
         private const val TAG = "MainActivity"
         private const val DISCOUNT_CONFIRMATION_MESSAGE = "DISCOUNT_CONFIRMATION_MESSAGE"
