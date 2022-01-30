@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <!-- TODO android:exported can be launched by components of other applications -->
         <activity
             android:name=".MainActivity"
             android:exported="true">

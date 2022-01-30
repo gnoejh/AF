@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
-//TOO Logging the activity callbacksD
+//TODO Activity Lifecycle
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     //TODO static functionality to classes
+    //singleton
     companion object {
         private const val TAG = "MainActivity"
     }
