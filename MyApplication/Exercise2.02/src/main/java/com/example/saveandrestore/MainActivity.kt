@@ -3,7 +3,8 @@ package com.example.saveandrestore
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-//TOO Saving and restoring the activity state
+//TODO Saving and Restoring the State in Layouts
+//default rotation pause
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

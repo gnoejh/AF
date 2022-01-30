@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 //TODO
 const val FULL_NAME_KEY = "FULL_NAME_KEY"
 
-//TODO Introduction to Intent
+//TODO Intent and Intent Filter
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

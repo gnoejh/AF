@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
+//TODO Saving and Restoring the State with Callbacks
 class MainActivity : AppCompatActivity() {
     //TODO val and customaccessor
     private val discountButton: Button
