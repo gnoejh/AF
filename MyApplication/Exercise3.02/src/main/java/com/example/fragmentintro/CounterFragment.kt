@@ -40,6 +40,7 @@ class CounterFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_counter, container, false)
     }
 
+    //TODO
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
