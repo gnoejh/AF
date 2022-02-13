@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.example.navigationactivity"
-        minSdkVersion 16
+        minSdkVersion 29
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
